@@ -384,6 +384,11 @@ table {
 .form-legend p {
   line-height: 0.66666667rem;
 }
+.form-legend a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #aeaeae;
+}
 form > div {
   text-align: center;
   padding-top: 0.13333333rem;
