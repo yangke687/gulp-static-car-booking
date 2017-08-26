@@ -149,6 +149,7 @@ table {
   padding-bottom: 0rem;
   font-size: 0.26666667rem;
   line-height: 0.58666667rem;
+  color: #333;
   font-weight: bold;
   text-align: justify;
   letter-spacing: 0;
@@ -243,6 +244,28 @@ table {
   font-weight: bold;
   background: #e387c4;
 }
+.car .hui {
+  font-size: 0rem;
+  top: 0rem;
+  left: 0rem;
+}
+.car .hui * {
+  vertical-align: middle;
+}
+.car .hui > img {
+  width: 0.64rem;
+}
+.car .hui > span {
+  display: inline-block;
+  color: #e43b31;
+  border: 1px solid #e43b31;
+  font-weight: bold;
+  background: #FFF;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  font-size: 0.32rem;
+  line-height: 0.58666667rem;
+}
 .divider {
   padding-left: 0.4rem;
   padding-right: 0.4rem;
@@ -285,6 +308,9 @@ table {
 }
 .chevrolet .tips h2.color {
   width: 3.06666667rem;
+}
+.ct6 .hui {
+  top: 0.53333333rem;
 }
 .ct6,
 .buick {
@@ -338,6 +364,11 @@ table {
 .atsl .tips h2.color {
   margin: 0 auto;
   width: 2.4rem;
+}
+.atsl .hui {
+  left: inherit;
+  right: 0px !important;
+  top: 0.24rem;
 }
 .form-legend {
   font-size: 0.34666667rem;
