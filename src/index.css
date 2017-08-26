@@ -135,6 +135,38 @@ table {
 .header > img {
   width: 100%;
 }
+.header .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.26666667rem;
+}
+.header .desc .text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  font-size: 0.26666667rem;
+  line-height: 0.58666667rem;
+  font-weight: bold;
+  text-align: justify;
+  letter-spacing: 0;
+  text-indent: 20px;
+}
+.header .desc .logos {
+  padding-left: 0.26666667rem;
+}
+.header .desc .logos > img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.26666667rem;
+  margin-bottom: 0.26666667rem;
+  width: 1.92rem;
+}
+.header .desc .logos > img:first-child {
+  width: 1.70666667rem;
+}
 .header .dices {
   display: -webkit-box;
   display: -ms-flexbox;

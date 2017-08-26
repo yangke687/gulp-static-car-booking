@@ -6,6 +6,34 @@
 	>img{
 		width: 100%;
 	}
+	.desc{
+		display: flex;
+		.mb(10);
+		.text{
+			flex: 1;
+			.pt(0);
+			.pb(0);
+			.fs(10);
+			.lh(22);
+			font-weight: bold;
+			text-align:justify;
+			letter-spacing: 0;
+			text-indent: 20px;
+		}
+		.logos{
+			.pl(10);
+			>img{
+				display: block;
+				margin: 0 auto;
+				.mt(10);
+				.mb(10);
+				.w(72);
+				&:first-child{
+					.w(64);
+				}
+			}
+		}
+	}
 	.dices{
 		display: flex;
 		.pb(5);
