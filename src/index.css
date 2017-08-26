@@ -261,6 +261,8 @@ table {
   border: 1px solid #e43b31;
   font-weight: bold;
   background: #FFF;
+  min-width: 0.93333333rem;
+  text-align: center;
   padding-left: 0.4rem;
   padding-right: 0.4rem;
   font-size: 0.32rem;
