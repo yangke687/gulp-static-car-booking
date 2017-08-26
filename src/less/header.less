@@ -1,0 +1,49 @@
+.header{
+	.pt(20);
+	.pl(20);
+	.pr(20);
+	.mb(30);
+	>img{
+		.w(95);
+		.h(95);
+	}
+	.dices{
+		display: flex;
+		.pb(5);
+		border-bottom: 1px solid rgb(162, 46, 64);
+		.dice{
+			flex: 1;
+			>img{
+				.w(18);
+				.h(18);
+			}
+		}
+	}
+	.text{
+		display: flex;
+		color: #3e3e3e;
+		.pt(16);
+		.pb(16);
+		.fs(14);
+		.lh(32);
+		letter-spacing: 2px;
+		.block{
+			flex: 1;
+			.pl(8);
+			.pr(8);
+			strong{
+				font-weight: bold;
+				.fs(18);
+			}
+			&:last-child{
+				.fs(12);
+			}
+			&.bordered{
+				.pl(0);
+				.pr(0);
+				border-left: solid #f4f4f4 1px;
+				border-right: solid #f4f4f4 1px;
+			}
+		}
+	}
+}

@@ -1,0 +1,398 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.header {
+  padding-top: 0.53333333rem;
+  padding-left: 0.53333333rem;
+  padding-right: 0.53333333rem;
+  margin-bottom: 0.8rem;
+}
+.header > img {
+  width: 2.53333333rem;
+  height: 2.53333333rem;
+}
+.header .dices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 0.13333333rem;
+  border-bottom: 1px solid #a22e40;
+}
+.header .dices .dice {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.header .dices .dice > img {
+  width: 0.48rem;
+  height: 0.48rem;
+}
+.header .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #3e3e3e;
+  padding-top: 0.42666667rem;
+  padding-bottom: 0.42666667rem;
+  font-size: 0.37333333rem;
+  line-height: 0.85333333rem;
+  letter-spacing: 2px;
+}
+.header .text .block {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 0.21333333rem;
+  padding-right: 0.21333333rem;
+}
+.header .text .block strong {
+  font-weight: bold;
+  font-size: 0.48rem;
+}
+.header .text .block:last-child {
+  font-size: 0.32rem;
+}
+.header .text .block.bordered {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  border-left: solid #f4f4f4 1px;
+  border-right: solid #f4f4f4 1px;
+}
+.car {
+  margin-top: 0.26666667rem;
+  margin-bottom: 0.26666667rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+.car .tips {
+  color: #3e3e3e;
+}
+.car .tips h1 {
+  display: block;
+  font-size: 0.45333333rem;
+  line-height: 0.63466667rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.car .tips h2 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 0.37333333rem;
+  line-height: 0.66666667rem;
+  padding-right: 0.05333333rem;
+}
+.car .tips h2.color {
+  line-height: 0.53333333rem;
+  font-weight: bold;
+  background: #e387c4;
+}
+.divider {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+.divider > img {
+  width: 100%;
+}
+.skoda,
+.chevrolet {
+  height: 4.58666667rem;
+}
+.skoda .img1,
+.chevrolet .img1 {
+  width: 5.92rem;
+  top: 50%;
+  margin-top: -1.74666667rem;
+}
+.skoda .img2,
+.chevrolet .img2 {
+  width: 3.54666667rem;
+  bottom: 0.26666667rem;
+  right: 1.33333333rem;
+}
+.skoda .tips,
+.chevrolet .tips {
+  top: 0;
+  right: 0.26666667rem;
+}
+.skoda .tips h2.color,
+.chevrolet .tips h2.color {
+  float: right;
+  width: 2.08rem;
+}
+.chevrolet .img1 {
+  width: 5.52rem;
+  margin-top: -1.54666667rem;
+}
+.chevrolet .img2 {
+  border: 2px solid #FFF;
+}
+.chevrolet .tips h2.color {
+  width: 3.06666667rem;
+}
+.ct6,
+.buick {
+  height: 8.10666667rem;
+}
+.ct6 .img1,
+.buick .img1 {
+  width: 100%;
+}
+.ct6 .img2,
+.buick .img2 {
+  width: 3.68rem;
+  bottom: 1.17333333rem;
+  right: 0.66666667rem;
+  border: 3px solid #FFF;
+  -webkit-box-shadow: 3px 3px 13px #333;
+          box-shadow: 3px 3px 13px #333;
+}
+.ct6 .tips,
+.buick .tips {
+  left: 1.33333333rem;
+  bottom: 0.93333333rem;
+}
+.ct6 .tips h1,
+.buick .tips h1 {
+  font-size: 0.48rem;
+}
+.ct6 .tips h2.color,
+.buick .tips h2.color {
+  margin: 0 auto;
+  width: 2.4rem;
+}
+.buick .tips {
+  bottom: 0.53333333rem;
+}
+.atsl {
+  height: 4.8rem;
+  margin-bottom: 0.53333333rem;
+}
+.atsl .img1 {
+  top: 0.26666667rem;
+  right: 0.4rem;
+  width: 5.52rem;
+}
+.atsl .img2 {
+  width: 3.54666667rem;
+  bottom: 0rem;
+  left: 1.33333333rem;
+  border: 2px solid #FFF;
+}
+.atsl .tips h2.color {
+  margin: 0 auto;
+  width: 2.4rem;
+}
+.form-legend {
+  font-size: 0.34666667rem;
+  color: #aeaeae;
+}
+.form-legend h1 {
+  font-weight: bold;
+  font-size: 0.48rem;
+  margin-bottom: 0.53333333rem;
+}
+.form-legend p {
+  line-height: 0.66666667rem;
+}
+form > div {
+  text-align: center;
+  padding-top: 0.13333333rem;
+  padding-bottom: 0.13333333rem;
+}
+form label {
+  margin-right: 0.26666667rem;
+  font-size: 0.37333333rem;
+  color: #949494;
+}
+form input {
+  width: 70%;
+  height: 0.8rem;
+  font-size: 0.42666667rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-appearance: none;
+  border: 1px solid #949494;
+  border-radius: 0px;
+  color: #949494;
+}
+form select {
+  width: 70%;
+  height: 0.8rem;
+  font-size: 0.42666667rem;
+  padding-left: 0.13333333rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  border: 1px solid #949494;
+  color: #949494;
+  background: #fff url(img/yysj_13.jpg) right center no-repeat;
+  background-size: auto 100%;
+}
+form .tj {
+  width: 100%;
+  height: 3.2rem;
+  margin-top: 1.06666667rem;
+  position: relative;
+  background: url(img/yysj_09.png) no-repeat;
+  background-size: 100% 30%;
+}
+/* fonts */
+.font-hei {
+  font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+.font-kai {
+  font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
+}
+.font-song {
+  font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
+}
+.font-fang-song {
+  font-family: Baskerville, "Times New Roman", "Liberation Serif", STFangsong, FangSong, FangSong_GB2312, "CWTEX\-F", serif;
+}
+/* size */
+/* margin */
+/* padding */
+/* position */
+.po-r {
+  position: relative;
+}
+.po-a {
+  position: absolute;
+}
+/* text-align */
+.ta-c {
+  text-align: center;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-r {
+  text-align: right;
+}
