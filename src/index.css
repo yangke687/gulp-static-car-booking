@@ -133,8 +133,7 @@ table {
   margin-bottom: 0.8rem;
 }
 .header > img {
-  width: 2.53333333rem;
-  height: 2.53333333rem;
+  width: 100%;
 }
 .header .dices {
   display: -webkit-box;
