@@ -38,9 +38,21 @@
 	.dices{
 		display: flex;
 		.pb(5);
+		.h(37);
 		border-bottom: 1px solid rgb(162, 46, 64);
 		.dice{
 			flex: 1;
+			color: #b75f6c;
+			h1{
+				margin: 0 auto;
+				.fs(13);
+				.lh(25);
+				font-weight: bold;
+				&.bordered{
+					border-left: 1px solid #fda8b6;
+					border-right: 1px solid #fda8b6;
+				}
+			}
 			>img{
 				.w(18);
 				.h(18);

@@ -173,12 +173,24 @@ table {
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 0.13333333rem;
+  height: 0.98666667rem;
   border-bottom: 1px solid #a22e40;
 }
 .header .dices .dice {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  color: #b75f6c;
+}
+.header .dices .dice h1 {
+  margin: 0 auto;
+  font-size: 0.34666667rem;
+  line-height: 0.66666667rem;
+  font-weight: bold;
+}
+.header .dices .dice h1.bordered {
+  border-left: 1px solid #fda8b6;
+  border-right: 1px solid #fda8b6;
 }
 .header .dices .dice > img {
   width: 0.48rem;
@@ -378,8 +390,8 @@ table {
 }
 .form-legend h1 {
   font-weight: bold;
-  font-size: 0.48rem;
-  margin-bottom: 0.53333333rem;
+  font-size: 0.42666667rem;
+  margin-bottom: 0.32rem;
 }
 .form-legend p {
   line-height: 0.66666667rem;
